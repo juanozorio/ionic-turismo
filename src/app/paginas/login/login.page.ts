@@ -9,7 +9,14 @@ export class LoginPage implements OnInit {
 
   constructor() { }
 
+  usuario : string;
+  senha : number;
+
   ngOnInit() {
   }
 
+  logar() {
+  console.log(this.usuario);
+  console.log(this.senha);
+  }
 }
